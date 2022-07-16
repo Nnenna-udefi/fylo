@@ -140,14 +140,14 @@ function App() {
 </ul>
 <SocialFollow />
 
-
+</div>
 <div className='acknowledgement'>
   Challenge by 
-    <a href ='https://www.frontendmentor.io/'>Frontend Mentor. </a>
+    <a href ='https://www.frontendmentor.io/'> Frontend Mentor. </a>
     Coded by <a href = "https://github.com/Nnenna-udefi/">Nnenna Udefi</a>
   
 </div>
-</div>
+
     </div>
     </div>
 
