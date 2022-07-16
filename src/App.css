@@ -197,6 +197,7 @@ border: 1px solid hsl(0, 0%, 75%);
 .acknowledgement{
   font-size: 12px;
   color: #fff;
+  text-align: center;
 }
 .acknowledgement a{
   color:hsl(170, 45%, 43%)
