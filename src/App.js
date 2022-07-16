@@ -108,7 +108,9 @@ function App() {
           </form>
      </div>
 
-     <div className= "footer">
+
+<div className= "footer">
+     <div className= "footer-flex">
       <div>
      <div className = "footer-logo">
           <img src = {footerLogo} alt = ""/>
@@ -137,6 +139,15 @@ function App() {
   
 </ul>
 <SocialFollow />
+
+
+<div className='acknowledgement'>
+  Challenge by 
+    <a href ='https://www.frontendmentor.io/'>Frontend Mentor. </a>
+    Coded by <a href = "https://github.com/Nnenna-udefi/">Nnenna Udefi</a>
+  
+</div>
+</div>
     </div>
     </div>
 

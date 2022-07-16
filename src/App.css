@@ -21,6 +21,7 @@ h1 h2{
 .navlink{
   margin-left: 2rem;
   list-style-type: none; 
+  cursor: pointer;
 }
 .navlink:hover{
   color: hsl(224, 93%, 58%);
@@ -193,12 +194,19 @@ border: 1px solid hsl(0, 0%, 75%);
 .social-container{
   text-align: center;
 }
+.acknowledgement{
+  font-size: 12px;
+  color: #fff;
+}
+.acknowledgement a{
+  color:hsl(170, 45%, 43%)
+}
 @media screen and (min-width: 700px) {
   .section3{
     display: flex;
     padding: 5rem;
   }
-  .footer{
+  .footer-flex{
     display: flex;
     justify-content: space-between;
     padding: 5rem;
@@ -280,7 +288,6 @@ border: 1px solid hsl(0, 0%, 75%);
   }
   .header-img{
     margin-left: 10rem;
-    /* width: 70% */
   }
   .header-text p{
     padding: 2rem 0;
