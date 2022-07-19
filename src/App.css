@@ -1,7 +1,9 @@
 *{
   padding: 0;
   margin: 0;
+  letter-spacing: 1px;
 }
+
 p{
   font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +17,7 @@ h1 h2{
 .Navbar{
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 4rem 2rem;
   font-family: 'Raleway', sans-serif;
 }
 .navlink{
@@ -36,9 +38,9 @@ img{
 
 }
 .section1-input{
-  padding: .5rem 0 .5rem .5rem;
+  padding: .8rem 0 .8rem .5rem;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
 border: 1px solid hsl(0, 0%, 75%);
   margin: 1rem 0;
   color: hsl(0, 0%, 75%);
@@ -48,14 +50,16 @@ border: 1px solid hsl(0, 0%, 75%);
   color: #fff;
   border: none;
   width: 100%;
-  padding: .5rem 0;
-  border-radius: 5px;
+  padding: .8rem 0;
+  border-radius: 3px;
   font-family: 'Raleway', sans-serif;
 }
 .section1-btn:hover{
   background-color: hsl(224, 89%, 66%);
 }
-
+.header-form{
+  margin-top: 2rem;
+}
 .section2{
   margin-top: 5rem;
   background: url(./images/bg-curve-mobile.svg) no-repeat;
@@ -63,14 +67,17 @@ border: 1px solid hsl(0, 0%, 75%);
   background-color: hsl(240, 75%, 98%);
   padding: 2rem;
 }
-.section2 h2{
+.section2 h1{
   text-align: center;
   color: #07043B;
   margin: 5rem 0 2rem 0;
 }
 .section2-para{
-  color: hsl(238, 22%, 44%);
+  color: #07043B;
   
+}
+.header-text p{
+  margin-top: 1rem
 }
 .fylo-text{
   color: hsl(170, 45%, 43%);
@@ -128,7 +135,7 @@ border: 1px solid hsl(0, 0%, 75%);
 .section3-input{
   padding: .8rem 0 .8rem .5rem;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
 border: 1px solid hsl(0, 0%, 75%);
   margin: 1rem 0;
   color: hsl(0, 0%, 75%);
@@ -138,8 +145,8 @@ border: 1px solid hsl(0, 0%, 75%);
   color: #fff;
   border: none;
   width: 100%;
-  padding: .8rem .8rem 0 0;
-  border-radius: 5px;
+  padding: .8rem .8rem .8rem 0;
+  border-radius: 3px;
   margin-bottom: 2rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -198,14 +205,19 @@ border: 1px solid hsl(0, 0%, 75%);
   font-size: 12px;
   color: #fff;
   text-align: center;
+  margin-top: 2rem;
 }
 .acknowledgement a{
+  
   color:hsl(170, 45%, 43%)
 }
 @media screen and (min-width: 700px) {
   .section3{
     display: flex;
     padding: 5rem;
+  }
+  .acknowledgement{
+    margin-top: 0;
   }
   .footer-flex{
     display: flex;
@@ -217,7 +229,7 @@ border: 1px solid hsl(0, 0%, 75%);
     text-align: left;
   }
   .Navbar{
-    padding: 2rem 5rem;
+    padding: 4rem 5rem;
   }
   .access{
     width: 50%;
@@ -259,7 +271,7 @@ border: 1px solid hsl(0, 0%, 75%);
     object-fit: cover;
     background-color: hsl(240, 75%, 98%);
   }
-  .section2 h2{
+  .section2 h1{
     text-align: left;
   }
   .section2-para{
@@ -284,21 +296,23 @@ border: 1px solid hsl(0, 0%, 75%);
   }
   .header-text{
     padding: 2rem 0 0 0;
-    width: 30%;
-    padding: 5rem;
+    width: 50%;
+    padding: 6rem 5rem 0 5rem;
   }
-  .header-img{
-    margin-left: 10rem;
+  .header-form{
+    padding: 0 5rem;
+    width: 60%;
   }
+  
   .header-text p{
     padding: 2rem 0;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 1000px) {
 .header-text{
-  width: 50%;
+  width: 80%;
 }
-.header-img{
-  margin-left: 2rem;
-}
+
+
 }

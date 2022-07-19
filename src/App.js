@@ -30,24 +30,23 @@ function App() {
           <img src = {header} alt = ""/>
         </div>
 
+        <div>
+
         <div className ='header-text'>
           <h1>All your files in one secure location, accessible anywhere.</h1>
           <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.
           </p>
           
-          <form className = 'mobile-img'>
-          <input type = "name" placeholder = "Enter your email" required className='section1-input'/>
-          <br />
-          <button className= 'section1-btn'> Get Started </button>
-          </form>
+          </div>
 
-          <form>
+          <form className='header-form'>
           <input type = "email" placeholder = "Enter your email" required className='section1-input'/>
 
           <button className= 'section1-btn'> Get Started </button>
           </form>
+          </div>
           
-        </div>
+        
 
         <div className='desktop-img'>
           <img src = {header} alt = "" className = 'header-img'/>
@@ -61,7 +60,7 @@ function App() {
 
 <div>
         <div>
-          <h2>Stay productive, wherever you are</h2>
+          <h1>Stay productive, wherever you are</h1>
           <p className='section2-para'>Never let location be an issue when accessing your files. Fylo has you coverved for all of you file storage needs.</p>
           <p className='section2-para'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
 
@@ -128,14 +127,14 @@ function App() {
   <li className = 'footer-link'>About Us</li>
   <li className = 'footer-link'>Jobs</li>
   <li className = 'footer-link'>Press</li>
-  <li className = 'footer-link'>Blogs</li>
+  <li className = 'footer-link'>Blog</li>
 </ul>
 
 <ul className = 'footer-list'>
   
   <li className = 'footer-link'>Contact Us</li>
-  <li className = 'footer-link'>Privacy</li>
   <li className = 'footer-link'>Terms</li>
+  <li className = 'footer-link'>Privacy</li>
   
 </ul>
 <SocialFollow />
